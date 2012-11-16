@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">TestLib</string>
+    
+    <string name="menu_exit">Exit</string>
+
+</resources>

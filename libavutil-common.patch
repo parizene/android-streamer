@@ -1,0 +1,19 @@
+diff --git a/ffmpeg/libavutil/common.h b/ffmpeg/libavutil/common.h
+index 0f36309..79f035d 100644
+--- a/ffmpeg/libavutil/common.h
++++ b/ffmpeg/libavutil/common.h
+@@ -26,6 +26,14 @@
+ #ifndef AVUTIL_COMMON_H
+ #define AVUTIL_COMMON_H
+ 
++#ifdef __cplusplus
++#define __STDC_CONSTANT_MACROS
++#ifdef _STDINT_H
++#undef _STDINT_H
++#endif
++#include <stdint.h>
++#endif
++
+ #include <ctype.h>
+ #include <errno.h>
+ #include <inttypes.h>

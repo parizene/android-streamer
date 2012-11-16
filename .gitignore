@@ -1,0 +1,10 @@
+bin
+gen
+jni/live
+jni/out
+obj
+project.properties
+.classpath
+.cproject
+.project
+
