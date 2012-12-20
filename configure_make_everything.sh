@@ -10,6 +10,6 @@ function die {
 ./configure_ffmpeg.sh || die "FFMPEG configure"
 ./make_ffmpeg.sh || die "FFMPEG make"
 
-tar -xzf live.2012.11.16.tar.gz -C jni/
+tar -xzf live.2012.12.18.tar.gz -C jni/
 
 ndk-build
