@@ -3,7 +3,7 @@
 # set the base path to your Android NDK (or export NDK to environment)
 
 if [[ "x$ANDROID_NDK_BASE" == "x" ]]; then
-    ANDROID_NDK_BASE=/home/tim/dev/android-ndk-r8b
+    ANDROID_NDK_BASE=/home/tim/dev/android-ndk-r8d
     echo "No ANDROID_NDK_BASE set, using $ANDROID_NDK_BASE"
 fi
 
