@@ -10,6 +10,7 @@ function die {
 ./configure_ffmpeg.sh || die "FFMPEG configure"
 ./make_ffmpeg.sh || die "FFMPEG make"
 
-tar -xzf live.2012.12.18.tar.gz -C jni/
+wget http://www.live555.com/liveMedia/public/live555-latest.tar.gz
+tar -xzf live555-latest.tar.gz -C jni/
 
 ndk-build

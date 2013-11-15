@@ -1,7 +1,7 @@
-diff --git a/ffmpeg/libavutil/common.h b/ffmpeg/libavutil/common.h
-index 0f36309..79f035d 100644
---- a/ffmpeg/libavutil/common.h
-+++ b/ffmpeg/libavutil/common.h
+diff --git a/libavutil/common.h b/libavutil/common.h
+index e487218..de352f7 100644
+--- a/libavutil/common.h
++++ b/libavutil/common.h
 @@ -26,6 +26,14 @@
  #ifndef AVUTIL_COMMON_H
  #define AVUTIL_COMMON_H
@@ -13,7 +13,7 @@ index 0f36309..79f035d 100644
 +#endif
 +#include <stdint.h>
 +#endif
-+
- #include <ctype.h>
- #include <errno.h>
- #include <inttypes.h>
++ 
+ #if defined(__cplusplus) && !defined(__STDC_CONSTANT_MACROS) && !defined(UINT64_C)
+ #error missing -D__STDC_CONSTANT_MACROS / #define __STDC_CONSTANT_MACROS
+ #endif
